@@ -37,7 +37,7 @@ module Rouge
             OPEN O QUIT Q READ R RETURN RET SET S TCOMMIT TC THROW 
             TROLLBACK TRO TRY TSTART TS USE VIEW 
             WHILE WRITE W XECUTE X ZKILL ZNSPACE ZN ZTRAP ZWRITE ZW ZZDUMP ZZWRITE
-            #DIM
+            #DIM ##class
         )
 
         special_variables = %w(
