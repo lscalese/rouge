@@ -218,7 +218,7 @@ module Rouge
             rule function, Name::Function
             rule operators, Operator
 
-            rule %r/[a-z0-9]+\b/i, Literal
+            rule %r/[a-z0-9]+/i, Literal
             rule numeric, Literal::Number
         end
         
